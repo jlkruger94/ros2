@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kruger_guariste_pkg</name>
+  <version>0.0.0</version>
+  <description>Visualización de rosbag con RViz y RQT</description>
+
+  <maintainer email="jlkruger94@gmail.com">José Luis Krüger</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+</package>
